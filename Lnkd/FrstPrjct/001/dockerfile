@@ -1,0 +1,15 @@
+#JS
+
+FROM python:3.11.15-trixie
+
+WORKDIR /app
+
+COPY . /app
+
+RUN pip install --no-cache-dir -r requirements.txt
+
+ENV FLASK_APP=app.py
+
+# Run the command to start the Flask application 
+CMD ["flask", "run", "--host=0.0.0.0"]
+
