@@ -1,0 +1,20 @@
+JS
+
+docker pull icr.io/appc-dev/ace-server:latest
+
+MQ : icr.io/ibm-messaging/mq      latest    e3a4e7901ece   2 months ago    1.53GB
+ACE : icr.io/appc-dev/ace-server   latest    68c6ad08a567   5 years ago     3.17GB
+
+$ docker images
+REPOSITORY                   TAG       IMAGE ID       CREATED         SIZE
+kineteco-storefront          latest    96db481ab7ad   3 days ago      95.1MB
+mysql                        latest    f0ef1d92fa65   6 days ago      1.29GB
+node                         latest    c69f4e0640e5   2 weeks ago     1.62GB
+icr.io/ibm-messaging/mq      latest    e3a4e7901ece   2 months ago    1.53GB
+nginx                        latest    ca871a86d45a   4 months ago    225MB
+kindest/node                 <none>    7416a61b42b1   8 months ago    1.45GB
+busybox                      latest    2383baad1860   19 months ago   6.78MB
+stacksimplify/mynginx        v1        7024efc5adcc   20 months ago   273MB
+icr.io/appc-dev/ace-server   latest    68c6ad08a567   5 years ago     3.17GB
+
+
